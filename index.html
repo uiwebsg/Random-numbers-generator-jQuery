@@ -1,0 +1,19 @@
+<script src="https://uiweb.sg/pools/plugins/jquery/jquery.min.js"></script>
+<style>
+  .luckynumber_roll {
+    margin: 5px;
+    padding: 5px;
+    background: gray;
+    border-radius: 10px;
+    font-size: 40px;
+    width: 50px;
+    float:left;
+    color: white;
+    text-align:center;
+}
+</style> 
+<div id="random_numbers" style="min-heigth:500px;position: relative;"></div>
+<div style="clear:both">
+<div> START: <input  type="text" value="1"  id="start"> | END : <input  type="text" value="50"  id="end"> | RANDOM NUMBERS : <input  type="text" value="6" id="total"></div><br><br>
+<button onclick="uiweb_randomNumber_interval()">CHECK RANDOM</button><button onclick="clear_interval()">STOP RANDOM</button><br><br><br><br>
+</div>
